@@ -1,0 +1,186 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin:0 auto;
+  font-family:"Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a{
+  text-decoration:none;
+}
+
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+
+.top-wrapper{
+  padding-top:180px;
+  color:white;
+  background-size:cover;
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  text-align:center;
+}
+
+.top-wrapper h1{
+  letter-spacing: 5px;
+  text-transform:uppercase;
+  font-size:45px;
+  opacity:0.7;
+}
+
+.top-wrapper p{
+  opacity:0.7;
+  padding-bottom:30px;
+}
+
+.btn-wrapper{
+  color:white;
+  padding-bottom:100px;
+  text-align:center;
+}
+
+.btn-wrapper p{
+  opacity:0.8;
+  padding:15px 0 15px 0;
+}
+
+.btn{
+  opacity:0.8;
+  padding:8px 24px;
+  display:inline-block;
+  color:white;
+  border-radius:5px;
+
+}
+
+.btn:hover{
+  opacity:1.0;
+}
+
+.signup{
+  background-color:#239b76;
+}
+
+.facebook{
+  background-color:#3b5998;
+  margin-right:10px;
+}
+
+.twitter{
+  background-color:#55acee;
+}
+
+.fab{
+  padding-right:5px;
+}
+
+header{
+  height:65px;
+  background-color:rgba(34,49,52,0.9);
+  position:fixed;
+  width:100%;
+  z-index:10;
+  top:0;
+}
+
+.header-left img{
+  width:124px;
+  padding-top:20px;
+  float:left;
+}
+
+.header-right a{
+  color:white;
+  line-height:65px;
+  background-color:rgba(255,255,255,0.3);
+  float:right;
+  padding:0 25px;
+  transition:all 1s;
+  display:block;
+}
+
+.header-right a:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+.lesson-wrapper{
+  height:580px;
+  background-color: #f7f7f7;
+  text-align:center;
+}
+
+.lesson-wrapper h2{
+  color:#5f5d60;
+  font-weight:normal;
+  padding:80px 0 50px 0;
+}
+
+.lesson{
+  width:25%;
+  float:left;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.lesson-icon p{
+  position:absolute;
+  top:44%;
+  width:100%;
+  color:white;
+}
+
+.description{
+  color:#b3aeb5;
+  display:inline-block;
+  width:80%;
+  font-size:13px;
+}
+
+.message-wrapper{
+  text-align:center;
+}
+
+.message-wrapper h2{
+  color:#5f5d60;
+  font-weight:normal;
+  padding-top:80px;
+}
+
+.message-wrapper h3{
+  color:#5f5d60;
+  padding-bottom:50px;
+}
+
+.message{
+  background-color:#5dca88;
+  box-shadow:0 7px #1a7940;
+  margin-bottom:80px;
+}
+
+.message:active{
+  box-shadow:none;
+  position:relative;
+  top:7px;
+}
+
+footer{
+  padding:30px 0;
+  border-top:1px solid #eee;
+}
+
+footer img{
+  width:124px;
+}
+
+footer p{
+  font-size:12px;
+  color:#b3aeb5;
+}
